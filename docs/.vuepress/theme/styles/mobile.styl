@@ -1,0 +1,23 @@
+
+.think_copyright.mobile
+  display none
+.think_copyright.nomobile
+  display block
+  margin 5px auto
+  padding-top 10px
+  height 30px
+
+@media (max-width: $MQMobileNarrow)
+  h1
+    font-size 1.9rem
+  .theme-default-content
+    div[class*="language-"]
+      margin 0.85rem -0.5rem !important
+      border-radius 0
+  .think_copyright.mobile
+      display block
+      margin: 5px auto 0px
+      padding-top: 5px
+      height 36px
+  .think_copyright.nomobile
+      display none
